@@ -7,3 +7,13 @@
 ```bash
 ruby details.rb 9080
 ```
+
+## How to run with Docker
+
+```bash
+# Build Docker Image for details service
+docker build -t details .
+
+# Run ratings service on port 8081
+docker run -d --name ratings -p 8081:8081 details
+```
