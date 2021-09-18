@@ -4,6 +4,4 @@
 
 * Ruby 2.7
 
-```bash
-ruby details.rb 9080
-```
+# Assignment in 'dev' branch
