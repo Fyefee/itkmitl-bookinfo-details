@@ -17,3 +17,7 @@ docker build -t details .
 # Run ratings service on port 8081
 docker run -d --name ratings -p 8081:8081 details
 ```
+
+``` 
+You can test with path '/health' or '/details/1'
+```
