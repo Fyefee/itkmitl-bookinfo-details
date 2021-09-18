@@ -15,7 +15,7 @@ ruby details.rb 9080
 docker build -t details .
 
 # Run ratings service on port 8081
-docker run -d --name ratings -p 8081:8081 details
+docker run -d --name details -p 8081:8081 details
 ```
 
 ``` 
