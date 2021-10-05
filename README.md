@@ -18,6 +18,12 @@ docker build -t details .
 docker run -d --name details -p 8081:8081 details
 ```
 
+## How to run with Docker Compose
+
+```bash
+docker-compose up -d
+```
+
 ``` 
 You can test with path '/health' or '/details/1'
 ```
