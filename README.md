@@ -27,3 +27,11 @@ docker-compose up -d
 ``` 
 You can test with path '/health' or '/details/1'
 ```
+
+## How to run with Kubernetes
+
+```bash
+# Create deployment resource
+kubectl apply -f k8s/
+```
+
